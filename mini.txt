@@ -1,0 +1,72 @@
+[SkyELITE21 MiniHost]
+!Version: 202412171705
+!Title: Arxis Sky's Mini Host
+!Last modified: 17 Dec 2024 17:05 UTC
+!Expires: never
+!Homepage: https://github.com/SkyELITE21/BlockList
+!
+! *** antiadblockfilters:antiadblockfilters/antiadblock_arabic.txt ***
+!
+/adb-watch.
+/adb_script/*
+/deadblocker/*
+/mod_ablockdetector/*
+/npsblocker/js/ads.
+!
+@@/adsbygoogle.js$script,domain=arabiaweather.com
+!
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=shahid.mbc.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=shed4u1.com|elktob.online
+@@||play.bokracdn.run/v2/adsjs/ads.js$script,~third-party
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=shahid.mbc.net
+!
+###adblock_screen
+###adblock_message
+##.adblockInfo
+##.adblock_floating_message
+##.adblock_msg
+##.ads-block-warning
+##.deadblocker-header-bar
+##.detected-block-modal
+##.no-ad-reminder
+!
+kimo.ma##.adb
+azrotv.com##.adbn-wrap
+freestore.app##.adbn2-wrap2
+4algeria.com###exposeMask
+chahid4u.tk###unblocker
+okanime.tv##.jconfirm
+fctvhd.com##.mw-adblock
+4algeria.com##.xenOverlay
+azrotv.com##div[id^="laoad_Adb"]
+!
+shahid4u.club#@#.adsBox
+!
+@@||ency-educ.com^$generichide
+@@||shahid.mbc.net^$generichide
+@@||yacine-app.com^$generichide
+!
+! *** antiadblockfilters:antiadblockfilters/antiadblock_chinese.txt ***
+! *** antiadblockfilters:antiadblockfilters/antiadblock_czech.txt ***
+! *** antiadblockfilters:antiadblockfilters/antiadblock_dutch.txt ***
+bouweenpc.nl###header-banner
+rtlxl.nl##.adblock
+spele.nl##.adblocker
+koolhydraatarmerecepten.info##body > [style^="z-index: 1000000; "]
+! *** antiadblockfilters:antiadblockfilters/antiadblock_english.txt ***
+! General block
+/adblock-alerter/js/adblock_alerter.js
+/adblock-img.
+/adsmatcher-anti-adblock/*
+/arlinablock.js
+! General hide
+##.ad-blocker-warning
+##.main_adbalert
+##.pane-emediate
+! Specific block
+||adc3-launch.adcolony.com
+||events3alt.adcolony.com
+||wd.adcolony.com
+||o2.mouseflow.com
+||tools.mouseflow.com
+||browser.sentry-cdn.com
